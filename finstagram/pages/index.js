@@ -5,7 +5,7 @@ import axios from "axios";
 import User from "../comps/user";
 import Photo from "../comps/photo";
 import SimpleModal from "../comps/modal";
-import { getHomePage } from "./api";
+// import { getHomePage } from "./api";
 
 export default function Home() {
   // getHomePage().then((x) => console.log(x)).catch(error => console.log(error));
