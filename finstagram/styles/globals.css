@@ -1,16 +1,74 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(
+    to bottom right,
+    #c5d4d2,
+    #f1d3ac,
+    #a49aa3,
+    #838597
+  );
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.footer-items {
+  display: flex;
+  justify-content: space-between;
 }
 
-* {
-  box-sizing: border-box;
+.user-container {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  /* width: 100vw; */
+  background-color: white;
+  padding: 20px;
+}
+
+.profile-pic {
+  padding: 30px 20px 30px 40px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+}
+
+.text-container {
+  display: flex;
+}
+
+.bio-text {
+  padding-left: 10px;
+}
+
+.bio-text h1 {
+  margin-left: -10px;
+}
+.bio-text p {
+  margin: 0px;
+  color: rgba(158, 158, 158, 0.7);
+}
+
+.contact {
+  padding-right: 140px;
+  padding-left: 40px;
+}
+
+.contact p {
+  margin: 0px;
+}
+
+.pink {
+  color: rgb(202, 116, 163);
+}
+
+.modal-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-img-container img {
+  max-width: 450px;
 }
