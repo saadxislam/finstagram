@@ -8,6 +8,11 @@ To start the project:
 - from 'finsta' folder, run 'npm run start' to start the express backend
 - Open http://localhost:3000 with your browser to see the result.
 
+## FINAL PRODUCT
+
+![Home](https://github.com/saadxislam/finstagram/blob/master/docs/home.png?raw=true)
+![Modal Shot](https://github.com/saadxislam/finstagram/blob/master/docs/modal%20shot.png?raw=true)
+
 ## STACK USED
 
 ### Front-End
