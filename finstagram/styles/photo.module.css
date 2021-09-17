@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.albumContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  /* border: 2px solid black; */
+}
+
+.singleCard {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.lowerCard {
+  margin: 0px 20px;
+}
+
+.single-card img {
+  width: 100%;
+}
+
+.single-card p {
+  word-break: break-all;
+}
+
+.cardText {
+  text-align: justify;
+}
+
+.image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
